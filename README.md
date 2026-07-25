@@ -70,11 +70,12 @@ The following models were implemented and compared:
 
 ## Model Performance
 
-| Model | Accuracy | Recall | Dataset Used |
-|--------|----------|---------|--------------|
-| Logistic Regression | 88.00% | 65% | Full Dataset |
-| Random Forest | 99.67% | 31% | 50K Train / 10K Test Sample |
-| XGBoost | 99.87% | Sample Evaluation | 50K Train / 10K Test Sample |
+| Model               | Accuracy | Recall | Dataset Used                |
+| ------------------- | -------: | -----: | --------------------------- |
+| Logistic Regression |   88.00% |    65% | Full Dataset                |
+| Random Forest       |   99.67% |    31% | 50K Train / 10K Test Sample |
+| XGBoost             |   99.87% |    N/A | 50K Train / 10K Test Sample |
+
 
 ## Model Evaluation
 
@@ -102,15 +103,6 @@ FraudShield/
 ├── Fraud Detection.ipynb
 └── README.md
 ```
-
-## Future Improvements
-
-- Deploy the trained model as a web application.
-- Build a real-time fraud detection pipeline.
-- Experiment with advanced fraud detection techniques for highly imbalanced datasets.
-
----
-
 ## Author
 
 **Aditi Kashyap**
